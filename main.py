@@ -51,5 +51,9 @@ def multiple_predictions():
     y_pred_json = json.dumps(y_pred.tolist())
 
     return y_pred_json
-if __name__ == '__main__':
+
+def main():
     app.run(host='0.0.0.0')
+
+if __name__ == '__main__':
+    main()
